@@ -1,0 +1,9 @@
+[Core]
+Name = Dice
+Module = dice
+
+[Documentation]
+Description = Plugin for rolling dice
+
+[Python]
+Version = 3
