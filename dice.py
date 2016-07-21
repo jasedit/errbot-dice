@@ -36,4 +36,4 @@ class Dice(BotPlugin):
                                 configuration.items()))
         else:
             config = CONFIG_TEMPLATE
-        super(Catfacts, self).configure(config)
+        super(Dice, self).configure(config)
