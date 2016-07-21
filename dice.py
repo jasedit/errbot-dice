@@ -18,7 +18,7 @@ class Dice(BotPlugin):
         try:
             result = dice.roll(' '.join(args))
             if self.config['USE_REPLY']:
-                self.send(mess.frm, result)
+                yield ' '.join([mess.frm.person, str(result)])
             else:
                 yield result
         except Exception:
