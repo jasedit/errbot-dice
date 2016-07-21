@@ -1,6 +1,6 @@
 # Plugin for simple dice rolling.
 
-from errbot import BotPlugin, botcmd, webhook
+from errbot import BotPlugin, botcmd
 
 import dice
 
